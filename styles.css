@@ -1,0 +1,116 @@
+	body {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		max-width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	h1 {
+		text-align:center;
+	}
+	h3 {
+		margin-bottom:5px;
+	}
+	#notes h1 {
+		color:#000099;
+		text-decoration:underline;
+	}
+	#notes {
+		border: groove thick;
+		-webkit-box-shadow: 1px 1px 10px #888;
+		border-radius: 10px;
+
+		padding:5px;
+	}
+	.note {
+		background: white;
+		border: groove thin #000066;
+		margin-bottom:12px;
+		padding:12px;
+		border-radius: 6px;
+	    box-shadow: 3px 3px 3px #888888;
+	}
+	.note h2{
+		margin-top:0px;
+	}
+	.summation {
+		background: white;
+		padding: 10px;
+		border: groove thick #cccccc;
+		border-radius: 6px;
+		margin-top:30px;
+	}
+	.summation h1 {
+		text-align:center;
+		font-family:Geneva, Arial, Helvetica, sans-serif;
+		font-weight: 900;
+		font-variant: small-caps;
+		color: #000033;
+		background-color:#FFCCFF;
+		margin:0px;
+		padding:0px;
+		border-radius: 6px;
+
+	}
+	.summation .text-block p {
+		font-size: 14px;
+		font-weight: bolder;
+	}
+	.sub-head {
+		text-align:center;
+		background-color:#CCCCCC;
+		margin:40px 20px 20px 20px;
+		padding:15px;
+		border-radius: 8px;
+	}
+	ul.menu {
+		width:94%;
+		list-style-type:none;
+		text-decoration:none;
+		box-sizing:flex;
+		display:flex;
+		margin-top:0px;
+		margin-bottom:5px;
+	}
+	li.menu-button {
+		width:100%;
+		height:16px;
+		text-align:center;
+		font-size:12px;
+		background: linear-gradient(#DDDDDD, #999999); 
+		margin-right:10px;
+		padding:5px;
+		border-radius: 3px;
+	}
+	li.menu-button:hover {
+		background: linear-gradient(#999999, #DDDDDD); 
+		margin-right:10px;
+		padding:5px;
+		border: thin #CC66CC;
+	}
+	li.menu-button.current {
+		background: linear-gradient(#00CCFF, #0099FF); 
+	}
+	li.menu-button.current:hover {
+		background: linear-gradient(#0099FF, #00CCFF); 
+	}
+	li.menu-button a:link{
+		color:#000000;
+		list-style-type:none;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	li.menu-button a:link:hover{
+		color:#0000CC;
+	}
+	.quote {
+		color:#003399;
+		font-style:italic;
+	}
+	.quote_red {
+		color:#CC0000;
+		font-style:italic;
+	}
+	.highlight {
+		background-color:#FFFF00;
+		font-weight:bold;
+	}
